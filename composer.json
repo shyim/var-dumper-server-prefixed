@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony\/var-dumper": "^4.2",
+        "symfony\/console": "^4.2",
+        "jdorn\/sql-formatter": "^1.2"
+    }
+}

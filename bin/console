@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php 
+namespace _PhpScoper5d36eb080763e;
+
+use _PhpScoper5d36eb080763e\Symfony\Component\Console\Application;
+use _PhpScoper5d36eb080763e\Symfony\Component\VarDumper\Command\ServerDumpCommand;
+\error_reporting(-1);
+\ini_set('display_errors', 1);
+require __DIR__ . '/init.php';
+$app = new \_PhpScoper5d36eb080763e\Symfony\Component\Console\Application();
+$app->add(new \_PhpScoper5d36eb080763e\Symfony\Component\VarDumper\Command\ServerDumpCommand($dumpServer));
+$app->run();
