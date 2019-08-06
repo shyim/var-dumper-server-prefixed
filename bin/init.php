@@ -40,6 +40,7 @@ if (!\function_exists('swdd')) {
             \_PhpScoper5d36eb080763e\Symfony\Component\VarDumper\VarDumper::dump($v);
         }
     }
+    die();
 }
 if (!\function_exists('sqlformat')) {
     function sqlformat($qb)
